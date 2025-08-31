@@ -112,7 +112,8 @@ export async function authenticate(
 	formData: FormData
 ) {
 	try {
-		await signIn("credentials", formData);
+		const callbackUrl = (formData.get("redirect") as string) || "/dashboard";
+		await signIn("credentials", formData, { redirectTo: callbackUrl });
 	} catch (error) {
 		if (error instanceof AuthError) {
 			if (error.type === "CredentialsSignin") {
