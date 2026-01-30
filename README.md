@@ -26,20 +26,16 @@ This project serves as both a learning exercise and a starter template for futur
 
 ## 🛠 Getting Started
 
-### Requirements
+- Make sure you have Node.js installed.  
+- Clone the repository: 
+  ```
+  git clone https://github.com/abdulalisadaqat/nextjs-dashboard.git  
+  cd nextjs-dashboard  
+  npm install  
+  npm run dev
+  ```  
 
-Make sure you have Node.js installed.
-
-### Install dependencies
-
-```
-npm install  
-npm run dev  
-```
-
-This starts the development server at:  
-`http://localhost:3000`  
-Open this URL in a browser to view the dashboard app.
+- Open this URL in a browser to view the dashboard app: `http://localhost:3000`  
 
 ## Try it out
 
