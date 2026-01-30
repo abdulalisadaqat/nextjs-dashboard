@@ -13,7 +13,11 @@ It demonstrates core Next.js concepts including:
 
 This project serves as both a learning exercise and a starter template for future Next.js dashboard-style applications.
 
----
+### Screenshot
+
+![](./preview.avif)
+
+```
 
 ## 🚀 Features
 
@@ -23,7 +27,7 @@ This project serves as both a learning exercise and a starter template for futur
 - Sample pages and navigation structure  
 - Starter styling with CSS modules
 
----
+```
 
 ## 🛠 Getting Started
 
